@@ -1,0 +1,18 @@
+[package]
+name = "prefix-guru"
+version = "0.1.0"
+edition = "2024"
+description = "Autoprefixer for Rust - adds and removes -webkit-, -moz-, -ms- and -o- prefixes in CSS for the selected browsers, ported from autoprefixer 10.4 and checked against it, with a built-in browserslist engine"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/prefix-guru"
+homepage = "https://github.com/StarcevAlexander/prefix-guru"
+readme = "README.md"
+keywords = ["css", "autoprefixer", "prefix", "vendor", "postcss"]
+categories = ["web-programming", "development-tools", "text-processing"]
+
+[dependencies]
+postcss-guru = "0.1.1"
+regex = "1"
+
+[dev-dependencies]
+serde_json = "1"
